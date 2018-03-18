@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sign up</title>
+  <link rel="stylesheet" type="text/css" href="style-sheet.css">
+  <header><center>
+    <h1>EDUCATION EXPRESS</h1>
+  </center></header>
+</head>
+
+<body >
+                  <!--FORM START FROM HERE-->
+<div  class="form">
+    		<form id="contactform" method="POST" action="signup.php"> 
+    			<p class="contact"><label for="name">First Name</label></p> 
+    			<input id="name" name="fname" placeholder="First name" required type="text">
+
+          <p class="contact"><label for="name">Last Name</label></p> 
+          <input id="name" name="lname" placeholder="Last name" required type="text">
+
+    			<p class="contact"><label for="email">Email</label></p> 
+    			<input id="email" name="email" placeholder="example@domain.com" required type="email">  
+
+          <p class="contact"><label for="password">Create a password</label></p> 
+    			<input type="password" id="password" name="password" required="" type="text"> 
+
+          <p class="contact"><label for="repassword">Confirm your password</label></p> 
+    			<input type="password" id="password" name="confirmpassword" required="" type="text"> 
+
+          
+
+               <fieldset>
+                
+                 <p class="contact"><label for="bday">Birthday</label></p> 
+                  <input id="bday" name="bday" placeholder="01/12/1234" required type="text">
+                  
+              </fieldset>
+             <p class="contact"><label>Gender</label></p> 
+            <select  name="gender" class="select-style gender" required>
+            <option >I am..</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+
+            </select><br><br>
+
+            <p class="contact"><label for="contact">Contact</label></p> 
+            <input id="phone" name="phone" placeholder="contact number" required type="text"> <br>
+
+            <p class="contact"><label for="location">Location</label></p> 
+            <input id="bday" name="location" placeholder="Karachi" required type="text">
+
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign me up!" type="submit"> 	 
+   </form> 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    
+    <title>Education Express</title>
+    <script type="text/javascript">
+    	alert("Welcome to Education Express");
+    </script>
+    <style>
+    body
+{
+    font: Arial,Helvetica, sans-serif;
+}
+#container {
+    width: 1000px;
+    border: none;
+    margin: 0 auto;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#header{
+    height: 150px;
+    padding: 10px 0px;
+}
+
+#brand{
+    float: left;
+}
+
+#searchbox {
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 40px;
+    padding: 6px 20px 0px 20px;
+    margin-top: 20px;
+    
+
+}
+
+.text {
+    float: left;
+   
+    width: 300px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0E;
+    background: white url(search.png) right center no-repeat;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+#introbox
+{
+    
+    background: linear-gradient(#F8F594,#D5D533);
+    padding: 30px;
+    margin: 10px 0px; 
+    height: 500px;
+    width: 300px;
+    margin-left: 300px;
+    align-content: center;
+    border-radius: 20px;
+    border-color: black;
+    outline-width: 20px;
+    margin-bottom: 200px;
+    margin-top: 150px;
+
+}
+
+#introbox form
+{
+	text-align: center;
+	font-size: 28px;
+}
+
+#introbox input
+{
+	width: 250px;  
+    height: 20px;
+
+}
+
+#introbox form .remember
+{
+	font-size: 16px;
+}
+
+#introbox form button
+{
+	height: 40px;
+	width: 80px;
+	background-color: #F93D66;
+	color: white;
+	font-size: 15px;
+	border-style: none;
+	border-radius: 50px;
+	
+}
+
+
+.footer
+{
+    background: linear-gradient(#F8F594,#D5D533);
+    height: 80px;
+    padding: 30px 20px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.footer p
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.back button
+{
+	height: 40px;
+	width: 80px;
+	background-color: #F93D66;
+	color: white;
+	font-size: 15px;
+	border-style: none;
+	border-radius: 50px;
+
+}
+
+
+body {
+  background: url("abc.jpeg");
+  background-size: cover;
+}
+
+    </style>
+    
+    </head>
+
+<body>
+    
+    <div id="container">
+        <div id="header">
+        <div id="brand">
+            <h1><a href="www.google.com">Education Express!</a></h1>
+            
+            </div>
+            <div id="searchbox">
+            <form method="POST">
+                <input type="text" class="text">
+                <input type="submit" value="Submit" class="submit">
+                </form>
+                
+            </div>
+
+            <div class="clear">
+            
+            </div>
+        </div>
+        
+        
+        <div id="introbox">
+        
+    <form action="login.php" method="POST">
+    <h1>Sign in</h1>
+    <label><b>Username</b></label>
+    <br>
+    <input type="text" name="uname" id="uname">
+    <br><br>
+    <label><b>Password</b></label>
+    <br>
+    <input type="password" name="psw" id="psw">
+    <br><br> 
+    <button name="login" type="submit">Login</button>
+    <br><br>
+    <input id="remember" type="checkbox" checked="checked" onclick="remember()"> Remember me
+    </form>
+    
+       
+        </div>
+        <div id="back">
+        	<button onclick="location.href='/website/index.html'">Back</button>
+        </div>
+        
+        
+        
+        
+        <div class="clear"></div>
+        
+        <footer class="footer">
+        <div>
+            <p>Education Express. Copyright &copy; 2011-2015</p>
+        </div>
+            </footer>
+    
+    </div>
+    
+    
+    </body></html>
