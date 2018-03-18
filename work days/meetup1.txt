@@ -1,0 +1,38 @@
+backend
+
+-be professional
+-attributes that will be taken at signup time are:
+First Name
+Last Name
+Email
+Create a password
+Confirm your password
+Birthday
+Gender
+Contact
+Location
+
+-login through gmail(https://www.codexworld.com/login-with-google-api-using-php/)
+-login through fb(https://www.codexworld.com/login-with-facebook-using-php/)
+-signup should be approved through mail.
+
+
+frontend 
+
+-be professional
+-a theme is going to be used throughout the website dont work like shit, design wisely.
+
+
+design logo:
+
+-design 5-10 logos and we will choose best 2/3 for use at different places in the website.
+-check logos of different companies and websites for help.
+
+
+
+
+design website
+
+design fare and complete drafts of the website comparing youtube,tutorialspoint 
+design every page and number them for easy readibility.
+
