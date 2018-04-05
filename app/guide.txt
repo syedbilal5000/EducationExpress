@@ -1,0 +1,6 @@
+----------***** User Guide for Education Express Configuration *****----------
+
+1. Make database 'education_express', if not.
+2. Import 'db_april_5.sql'
+
+Happy learning, enjoy!!! :)
